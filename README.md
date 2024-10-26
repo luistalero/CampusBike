@@ -496,3 +496,11 @@ GROUP BY categoria
 ORDER BY ingresos_totales DESC;
 
 ```
+
+Hecho por (Luis Alberto Talero Martinez)
+
+> [!NOTE]
+> complicaciones 
+
+> [!IMPORTANT]  
+> se encuentra culminado 
