@@ -403,7 +403,6 @@ JOIN Región r ON c.id_ciudad = r.id_ciudad
 GROUP BY b.marca, b.tipo_bicicleta, r.nombre
 ORDER BY cantidad_vendida DESC;
 
--- 5. Clientes premium (con compras superiores al promedio)
 WITH promedio_compras AS (
     SELECT AVG(total) AS promedio_total
     FROM Ventas
